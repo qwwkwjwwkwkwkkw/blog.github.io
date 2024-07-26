@@ -150,3 +150,39 @@ footer p {
         padding: 10px;
     }
 }
+
+/* 联系我部分 */
+#contact {
+    margin-top: 40px;
+    text-align: center;
+}
+
+/* 联系信息项 */
+.info-item {
+    margin: 10px 0;
+    color: #3c476a;
+    transition: color 0.3s ease;
+}
+
+.info-item i {
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.info-item a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.info-item:hover {
+    color: #5cb85c;
+}
+
+.info-item:hover a {
+    color: #5cb85c;
+}
+
+/* 联系方式图标 */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
